@@ -1,11 +1,14 @@
 # ecommerce_system.github.io
- ======================================================= 
- Project Name:              Ecommerce System
- Language Used:           PHP
- Database:                      MySQL  
- UI Design:                      HTML, CSS, Bootstrap 
- Software:                       XAMPP
- ======================================================= 
+ ===================================== 
+ 
+ Project Name:     Ecommerce System
+ Language Used:    PHP
+ Database:         MySQL  
+ UI Design:        HTML, CSS, Bootstrap 
+ Software:         XAMPP
+ 
+ ======================================
+ 
  Ecommerce System is divided into three modules– 
  Admin      
  Admin Features     
