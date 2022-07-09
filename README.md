@@ -17,8 +17,11 @@
  Admin can see the order details/Completion order     
  Admin can send the invoice to the customer   
  
- Customer- Customer can register/login 
- Customer can place order Customer can see the invoice & download it.   
- Supplier- A supplier can register/login 
+ Customer-
+ Customer can register/login 
+ Customer can place order Customer can see the invoice & download it.  
+ 
+ Supplier- 
+ A supplier can register/login 
  A supplier can see the Order list according to his id. 
  A supplier can complete supply & inform the admin.
