@@ -53,11 +53,36 @@ A supplier can complete supply & inform the admin.
 
 # Admin_Dashboard
 
-![image](https://user-images.githubusercontent.com/64527538/178773892-4c420d5f-e412-4280-9059-a0b8f49c963f.png)
 
 # Product_List
 
 ![image](https://user-images.githubusercontent.com/64527538/178774083-7f74158e-6ba1-40a2-8aaf-d17510c5feb4.png)
+
+# Add Product / Update Product / Delete Product
+
+![image](https://user-images.githubusercontent.com/64527538/178775231-52a67449-a26f-4b3f-86da-203cfae22415.png)
+
+# View Product
+
+![image](https://user-images.githubusercontent.com/64527538/178775474-f6fa035b-7c6e-4ca1-b72f-b987fa04e4b7.png)
+
+# Buy Product
+
+![image](https://user-images.githubusercontent.com/64527538/178775772-a65029a9-b162-45b9-beae-a99f2e7a6291.png)
+
+# Update Cart with quantity
+
+![image](https://user-images.githubusercontent.com/64527538/178776025-8c318bbc-817d-46af-a68d-e0da42040ab4.png)
+
+# Customer Dashboard
+
+![image](https://user-images.githubusercontent.com/64527538/178776262-ecd91f5d-a289-473c-9a7b-442b97b10762.png)
+
+# Invoice
+
+![image](https://user-images.githubusercontent.com/64527538/178776378-1398ab5b-ab18-401c-b4a2-c621105ef2d7.png)
+
+# Supplier Details->
 
 # There are many options, you can watch my videos to get clear idea about this...
 
