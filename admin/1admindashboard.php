@@ -1,10 +1,10 @@
-<?php 
-    include('../connection.php');
-    session_start();
-    if (empty($_SESSION['username'])) {
-        header("Location: http://localhost/All_Code/ecommerce_system/admin/1adminlogin.php");
-    }
-    ?>
+<?php
+include('../connection.php');
+session_start();
+if (empty($_SESSION['username'])) {
+    header("Location: http://localhost/All_Code/ecommerce_system/admin/1adminlogin.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,6 +19,7 @@
 </head>
 
 <?php include('../header.php') ?>
+
 <body>
 
 
@@ -122,10 +123,11 @@
                                 <hr>
 
                                 <p class="txt3"><?php echo $count2; ?></p>
-                            </div><hr>
-                        <div class="productlist">
-                            <a href="http://localhost/All_Code/ecommerce_system/admin/1orderlist.php" class="plist">Click here to see Order List</a>
-                        </div>
+                            </div>
+                            <hr>
+                            <div class="productlist">
+                                <a href="http://localhost/All_Code/ecommerce_system/admin/1orderlist.php" class="plist">Click here to see Order List</a>
+                            </div>
                         </div>
                     </section>
                     <section id="section3">
@@ -259,11 +261,13 @@
         text-align: center;
         color: red;
     }
-    .productlist{
+
+    .productlist {
         display: flex;
         justify-content: center;
     }
-    .plist{
+
+    .plist {
         text-decoration: none;
         font-size: 30px;
         /* font-weight: 700px; */
