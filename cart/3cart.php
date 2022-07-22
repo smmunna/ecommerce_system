@@ -78,8 +78,6 @@ while ($row = mysqli_fetch_assoc($result)) {
                                         <option value="Cash on delivary">Cash on delivary</option>
                                     </select>
 
-
-
                                     <!-- Hidden button -->
                                     <!-- product ID -->
                                     <input type="text" class="form-control w-50" hidden name="product_id" value="<?php echo $row['product_id']; ?>" placeholder="" required>
@@ -118,45 +116,15 @@ while ($row = mysqli_fetch_assoc($result)) {
                                                     <td style="padding-top: 17px;">Total</td>
                                                     <td id="tt"><?php echo $bkash_charge + $row['price']; ?><span style="font-size: 25px;font-weight:bold">৳</span></td>
                                                 </tr>
-                                                <!-- <tr>
-                                                    <td>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="radio" checked name="flexRadioDefault" id="flexRadioDefault1" onclick="myfun()">
-                                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                                <p> Bkash <img src="webimage/bkash.png" class="img-fluid" height="50" width="50" alt="" srcset=""></p>
-                                                                <p id="demo" style="text-align: justify;">
-                                                                    Please complete your bKash payment at first,
-                                                                    then fill up the form below. Also note that 1.85% bKash
-                                                                    "SEND MONEY" cost will be added with net price.
-                                                                    Total amount you need to send us at <b><?php //echo $bkash_charge + $row['price']; 
-                                                                                                            ?><span style="font-size: 18px;font-weight:bold">৳</span> </b><br>
-
-                                                                    bKash Personal Number : <b style="color:red;">01611765966</b>
-                                                                </p>
-                                                                <label for="" class="form-label">Bkash Number:</label>
-                                                                <input type="text" class="form-control" name="bkashnum" placeholder="016XXXXXXXX">
-                                                                <label for="" class="form-label">Transaction ID:</label>
-                                                                <input type="text" class="form-control" name="transaction_id" class="" placeholder="8NF5HDER59L">
-                                                            </label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="radio" disabled name="flexRadioDefault" id="flexRadioDefault2" onclick="myfun1()">
-                                                            <label class="form-check-label" for="flexRadioDefault2">
-                                                                <p> Nagad <img src="webimage/nagad.png" class="img-fluid" height="50" width="50" alt="" srcset=""></p>
-                                                                <p id="demo1"></p>
-                                                            </label>
-                                                        </div>
-                                                    </td>
-                                                </tr> -->
                                             </table>
                                         </div>
                                     </div>
                                 </div>
 
+                              </div>
                             </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn1" style="margin-top: 14px;">Update Transaction</button> <br><br>
-                    </form>
+                            <button type="submit" class="btn btn-primary btn1" style="margin-top: 14px;">Update Transaction</button> <br><br>
+                        </form>
                     </div>
                 </section>
                 <script src="../js/bootstrap.min.js"></script>
@@ -169,26 +137,15 @@ while ($row = mysqli_fetch_assoc($result)) {
         include('../footer.php');
         ?>
 
-
         <style>
             .btn1 {
                 margin-left: 40%;
                 width: 20%;
             }
         </style>
-
-
     <?php
     }
     ?>
 <?php
 }
 ?>
-
-<!-- <script>
-    function getSelectValue() {
-        var selectedValue = document.getElementById("list").value;
-        console.log(selectedValue);
-    }
-    getSelectValue();
-</script> -->
