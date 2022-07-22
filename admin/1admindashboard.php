@@ -133,8 +133,10 @@ if (empty($_SESSION['username'])) {
                     <section id="section3">
                         <h2 class="txt1">Customer Details</h3>
                             <hr>
-                            <h2>Order Completed List</h2>
-                            <a href="http://localhost/All_Code/ecommerce_system/admin/1completed_paymentlist.php">Click here to see</a>
+                            <h2>Order Completed List--></h2>
+                            <div class="productlist">
+                                <a href="http://localhost/All_Code/ecommerce_system/admin/1completed_paymentlist.php" class="plist">Click here to see</a>
+                            </div>
                     </section>
                     <section id="section4">
                         <h2 class="txt1">Supplier's Details</h2>
