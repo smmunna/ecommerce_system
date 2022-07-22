@@ -137,6 +137,11 @@ if (empty($_SESSION['username'])) {
                             <div class="productlist">
                                 <a href="http://localhost/All_Code/ecommerce_system/admin/1completed_paymentlist.php" class="plist">Click here to see</a>
                             </div>
+                            <hr>
+                            <h2>Customer List--></h2>
+                            <div class="productlist">
+                                <a href="http://localhost/All_Code/ecommerce_system/customer/2customer_list.php" class="plist">Click here to see</a>
+                            </div>
                     </section>
                     <section id="section4">
                         <h2 class="txt1">Supplier's Details</h2>
