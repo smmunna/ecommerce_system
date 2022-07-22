@@ -10,7 +10,7 @@ if (empty($_SESSION['username'])) {
 ?>
 
 <?php
- include('../header.php');
+include('../header.php');
 $order_id =  $_REQUEST['order_id'];
 $sql = "SELECT * FROM `payment_details` WHERE `order_id`='$order_id'";
 $result = mysqli_query($conn, $sql);

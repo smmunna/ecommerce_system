@@ -8,7 +8,7 @@ $result = mysqli_query($conn,$sql);
 
 if($result)
 {
-    echo '<script>alert("Data Deleted Successfully");</script>';
+    echo '<script>alert("Product Deleted Successfully");</script>';
     header('refresh:0; url= http://localhost/All_Code/ecommerce_system/admin/1showproduct.php');
 }
 else{

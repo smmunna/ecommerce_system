@@ -14,7 +14,6 @@ while ($row = mysqli_fetch_assoc($result)) {
 
     <!DOCTYPE html>
     <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +22,6 @@ while ($row = mysqli_fetch_assoc($result)) {
         <link rel="icon" href="../webimage/shopicon.png" type="image/png">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
     </head>
-
     <body>
         <?php include('../header.php');
         ?>

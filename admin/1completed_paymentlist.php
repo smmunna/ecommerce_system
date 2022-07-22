@@ -1,10 +1,10 @@
-<?php 
-    include('../connection.php');
-    session_start();
-    if (empty($_SESSION['username'])) {
-        header("Location: http://localhost/All_Code/ecommerce_system/admin/1adminlogin.php");
-    }
-    ?>
+<?php
+include('../connection.php');
+session_start();
+if (empty($_SESSION['username'])) {
+    header("Location: http://localhost/All_Code/ecommerce_system/admin/1adminlogin.php");
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">

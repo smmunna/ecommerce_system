@@ -20,8 +20,8 @@ if (empty($_SESSION['username'])) {
 
 <body>
 
-    <?php include('../header.php');?>
-    
+    <?php include('../header.php'); ?>
+
     <div class="container">
 
         <h2 class="txt1" style="text-align: center;">Order List</h2>
