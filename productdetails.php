@@ -27,7 +27,6 @@
                     $sql = "SELECT * FROM `products` WHERE `product_id`='$recv'";
                     $result = mysqli_query($conn, $sql);
                     while ($row = mysqli_fetch_assoc($result)) {
-
                         $myimage = $row['image'];
                     ?>
                         <!-- Product details -->
@@ -61,7 +60,8 @@
                             </div>
                         </div>
                     <?php
-                        } else {
+                        } 
+                        else {
                     ?>
                         <p style="background-color: green; color:aliceblue; width:15%;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="p-2">In Stock: <?php echo $instock; ?></p>
 
@@ -84,9 +84,6 @@
                                 </div>
                             </div>
                         </div>
-
-
-
                     <?php
                         }
                     ?>
@@ -104,7 +101,7 @@
 
 </html>
 
-<!-- For Styling -->
+<!-- For Styling Product Details Page-->
 <style>
     .txt1 {
         padding-top: 80px;

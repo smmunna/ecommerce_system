@@ -18,10 +18,10 @@
     <div class="container">
 
         <h2 style="text-align: center; padding-top:90px">All Product List</h2>
-        
+
         <form action="" method="post" name="myForm" onsubmit="return validateForm()" autocomplete="off">
-            <input type="text" name="search_name" placeholder="Search by Product Name" >
-            <button type="submit" >Search</button><i id="search_name" style="color: red;font-size:16px;font-weight:bold; padding-left:10px;"></i>
+            <input type="text" name="search_name" placeholder="Search by Product Name">
+            <button type="submit">Search</button><i id="search_name" style="color: red;font-size:16px;font-weight:bold; padding-left:10px;"></i>
         </form>
         <hr>
         <!-- Fetching the data from the database -->
@@ -107,15 +107,16 @@
     <?php include('footer.php') ?>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
 
 <!-- Script for form validation of Product search box -->
 <script>
-   function validateForm() {
-  let x = document.forms["myForm"]["search_name"].value;
-  if (x == "") {
-    document.getElementById("search_name").innerHTML = "Product Name must be filled out!!"
-    return false;
-  }
-}
+    function validateForm() {
+        let x = document.forms["myForm"]["search_name"].value;
+        if (x == "") {
+            document.getElementById("search_name").innerHTML = "Product Name must be filled out!!"
+            return false;
+        }
+    }
 </script>
