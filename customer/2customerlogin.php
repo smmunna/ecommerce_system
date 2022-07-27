@@ -1,3 +1,6 @@
+<?php include('../header.php');
+    include('../connection.php');
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,9 +15,7 @@
 </head>
 
 <body>
-    <?php include('../header.php');
-    include('../connection.php');
-    ?>
+    
     <!-- Creating form for customer log in -->
     <div class="container">
         <h2 class="txt">Customer Login Pannel</h2>
@@ -42,10 +43,10 @@
     </div>
 
     <?php include('../footer.php')  ?>
-    <!-- <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 
-</html> -->
+</html>
 
     <style>
         h2.txt {

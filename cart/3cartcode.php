@@ -190,3 +190,7 @@ if (isset($_POST['name']) && isset($_POST['product_id'])) {
     }
 
 }
+
+?>
+
+<script src="../js/bootstrap.min.js"></script>
