@@ -6,7 +6,7 @@ Author URL: http://w3layouts.com
 <html lang="zxx">
 
 <head>
-    <title>Supplier login form Responsive Widget Template : W3Layouts</title>
+    <title>Supplier login</title>
 
     <!-- Meta tags -->
     <meta charset="UTF-8">
