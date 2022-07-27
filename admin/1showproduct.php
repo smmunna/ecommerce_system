@@ -84,8 +84,8 @@ if (empty($_SESSION['username'])) {
                             echo "<img src ='../images/$myimage' height=50 width=50>";
                             ?>
                         </td>
-                        <td><a href="1updateproduct.php?id=<?php echo $row['product_id']; ?>">Update</a></td>
-                        <td><a href="1deleteproduct.php?id=<?php echo $row['product_id']; ?>">Delete</a></td>
+                        <td><a style="text-decoration: none;" href="1updateproduct.php?id=<?php echo $row['product_id']; ?>">Update</a></td>
+                       <td><a style="text-decoration: none;" href="1deleteproduct.php?id=<?php echo $row['product_id']; ?>">Delete</a></td>
                     </tr>
                 <?php
                 }
