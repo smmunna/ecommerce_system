@@ -38,7 +38,7 @@ include('../header.php');
                             <tr>
                                 <td><?php echo $row['customer_name']; ?></td>
                                 <td><?php echo $row['customer_email']; ?></td>
-                                <td><?php echo $row['customer_phone']; ?></td>
+                                <td>+880<?php echo $row['customer_phone']; ?></td>
                                 <td>
                                     <a href="http://localhost/All_Code/ecommerce_system/customer/delete.php?id=<?php echo $row['customer_id']; ?>">Delete</a>
                                 </td>

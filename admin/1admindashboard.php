@@ -146,22 +146,25 @@ if (empty($_SESSION['username'])) {
                     <section id="section4">
                         <h2 class="txt1">Supplier's Details</h2>
                         <hr>
-                        <?php 
+                        <?php
                         // For Supplier
-                         $sql6 = "SELECT * FROM `supplier_info`";
+                        $sql6 = "SELECT * FROM `supplier_info`";
                         //  For Supply
-                         $sql7 = "SELECT * FROM `supply_info`";
+                        $sql7 = "SELECT * FROM `supply_info`";
 
-                         $result6 = mysqli_query($conn,$sql6);
-                         $result7 = mysqli_query($conn,$sql7);
-                         $count5 =mysqli_num_rows($result6);
-                         $count6 =mysqli_num_rows($result7);
+                        $result6 = mysqli_query($conn, $sql6);
+                        $result7 = mysqli_query($conn, $sql7);
+                        $count5 = mysqli_num_rows($result6);
+                        $count6 = mysqli_num_rows($result7);
                         ?>
                         <h3 style="text-align: center;">Total Supplier = <?php echo $count5;  ?></h3>
                         <h3 style="text-align: center;">Completed Supply = <?php echo $count6;  ?></h3>
                         <hr>
                         <h4>Supplier</h4>
                         <a href="http://localhost/All_Code/ecommerce_system/admin/1supplier_list.php" style="color: white;">Click here to see </a>
+                        <hr>
+                        <h4>Completed Supply</h4>
+                        <a href="http://localhost/All_Code/ecommerce_system/admin/1completed_supply.php" style="color: white;">Click here to see </a>
                     </section>
                 </div>
             </div>
