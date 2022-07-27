@@ -161,7 +161,7 @@ if (empty($_SESSION['username'])) {
                         <h3 style="text-align: center;">Completed Supply = <?php echo $count6;  ?></h3>
                         <hr>
                         <h4>Supplier</h4>
-                        <a href="#" style="color: white;">Click here to see </a>
+                        <a href="http://localhost/All_Code/ecommerce_system/admin/1supplier_list.php" style="color: white;">Click here to see </a>
                     </section>
                 </div>
             </div>
