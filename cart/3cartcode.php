@@ -20,13 +20,35 @@ if (isset($_POST['name']) && isset($_POST['product_id'])) {
     $price = $_POST['price'];
     // $bkashnum = $_POST['bkashnum'];
     // $transaction_id = $_POST['transaction_id'];
+
+
+
+
+    $sql = "SELECT * FROM `products` WHERE `product_id`='$recv'";
+    $result = mysqli_query($conn, $sql);
+    while ($row = mysqli_fetch_assoc($result)) {
+        $myStock = $row['instock'];
+        if ($quantity <= $myStock) {
+
+?>
+        <?php
+        } else {
+        echo '<script>alert("We have enough product. Select Perfect Quantity..");</script>';
+        header("refresh: 0; url = http://localhost/All_Code/ecommerce_system/cart/3cart.php?id=".$recv);
+        }
+    }
+
+
+
+
+
     $payment_option = $_POST['payment_option'];
 
     $updated_price = $quantity * $price;
 
     //For Bkash============================>
     if ($payment_option == "Bkash") {
-?>
+        ?>
 
 
         <section id="sec1" style="margin-top: 100px">
@@ -83,7 +105,9 @@ if (isset($_POST['name']) && isset($_POST['product_id'])) {
 
         <!-- For Nagad Payment Option -->
     <?php
-    } elseif ($payment_option == "Nagad") {
+    } 
+    
+    elseif ($payment_option == "Nagad") {
     ?>
 
 
@@ -189,6 +213,9 @@ if (isset($_POST['name']) && isset($_POST['product_id'])) {
 <?php
     }
 
+    ?>
+
+    <?php
 }
 
 ?>
