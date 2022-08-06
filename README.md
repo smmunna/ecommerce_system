@@ -79,6 +79,10 @@ A supplier can complete supply & inform the admin.
 
 ![image](https://user-images.githubusercontent.com/64527538/178776025-8c318bbc-817d-46af-a68d-e0da42040ab4.png)
 
+# Out of the Stock !
+
+![OutOftheStock](https://user-images.githubusercontent.com/64527538/183260104-889bfb79-5335-4303-91b1-269b5107d496.PNG)
+
 # Customer Dashboard
 
 ![image](https://user-images.githubusercontent.com/64527538/178776262-ecd91f5d-a289-473c-9a7b-442b97b10762.png)
@@ -87,7 +91,7 @@ A supplier can complete supply & inform the admin.
 
 ![image](https://user-images.githubusercontent.com/64527538/178776378-1398ab5b-ab18-401c-b4a2-c621105ef2d7.png)
 
-# Supplier Details->
+# Supplier Details->...
 
 # There are many options, you can watch my videos to get clear idea about this...
 
