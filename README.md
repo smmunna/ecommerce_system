@@ -72,7 +72,8 @@ A supplier can complete supply & inform the admin.
 
 # If quantity is more than sotred quantity in database, then it will show the alert box- (updated)
 
-![update_cart](https://user-images.githubusercontent.com/64527538/183259850-7e2a2d57-7393-4b84-b392-7f5f84c85744.PNG)
+![update_cart](https://user-images.githubusercontent.com/64527538/183260023-8b1bf509-7d00-4f04-b16c-ef54689b3b08.PNG)
+
 
 # Update Cart with quantity
 
