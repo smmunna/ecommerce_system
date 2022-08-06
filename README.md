@@ -70,13 +70,13 @@ A supplier can complete supply & inform the admin.
 
 ![image](https://user-images.githubusercontent.com/64527538/178775772-a65029a9-b162-45b9-beae-a99f2e7a6291.png)
 
-# Update Cart with quantity
-
-![image](https://user-images.githubusercontent.com/64527538/178776025-8c318bbc-817d-46af-a68d-e0da42040ab4.png)
-
 # If quantity is more than sotred quantity in database, then it will show the alert box- (updated)
 
 ![update_cart](https://user-images.githubusercontent.com/64527538/183259850-7e2a2d57-7393-4b84-b392-7f5f84c85744.PNG)
+
+# Update Cart with quantity
+
+![image](https://user-images.githubusercontent.com/64527538/178776025-8c318bbc-817d-46af-a68d-e0da42040ab4.png)
 
 # Customer Dashboard
 
