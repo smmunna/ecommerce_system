@@ -52,6 +52,20 @@ A supplier can complete supply & inform the admin.
 ![image](https://user-images.githubusercontent.com/64527538/178773369-60cdce83-5f54-4485-9147-d073b1bc6ddc.png)
 
 # Admin_Dashboard
+![image](https://github.com/smmunna/ecommerce_system/assets/64527538/092b4d8e-3c53-4b00-ac7c-257425842c50)
+![image](https://github.com/smmunna/ecommerce_system/assets/64527538/62fbf887-f4c2-449e-9e2a-3757e4777abf)
+![image](https://github.com/smmunna/ecommerce_system/assets/64527538/bdc8d4a3-be4a-4996-aa83-9393c292fbaf)
+
+![image](https://github.com/smmunna/ecommerce_system/assets/64527538/226524e6-f1e5-4a9d-bd15-494b434c9389)
+
+![image](https://github.com/smmunna/ecommerce_system/assets/64527538/5c4bd221-6f03-49a1-bc02-372b4545a738)
+![image](https://github.com/smmunna/ecommerce_system/assets/64527538/f70831f2-c493-49a3-8099-0dc49a2a0d3e)
+![image](https://github.com/smmunna/ecommerce_system/assets/64527538/3b3da7fc-5f9f-4671-9d94-b0a651593997)
+
+
+
+
+
 
 
 # Product_List
